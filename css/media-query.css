@@ -1,0 +1,143 @@
+/* تابلت */
+@media (max-width: 992px) {
+  .inerrr{
+    width: 50%;
+    padding:  15px;
+  }
+  #portfolio .inerr{
+     width: 50%;
+  }
+}
+
+/* موبايل */
+@media (max-width: 768px) {
+    .container{
+        width: 80%;
+    }
+    .home-content h1{
+    font-size: 40px;
+   }
+   .nav-items{
+    display: none;
+   }
+   .about-img{
+    width: 100%;
+   }
+   .about-img img{
+    width: 80%;
+    margin: auto;
+   }
+   .about-desc{
+    width: 80%;
+    margin: auto;
+   }
+   .about-desc h3{
+    margin-top: 30px;
+   }
+   .about-img .overlay{
+   width: 0;
+   }
+ .inerrr{
+    width: 100%;
+    padding:  15px;
+  }
+  #portfolio .inerr{
+     width: 100%;
+  }
+  .box .overlay{
+    width: 0;
+  }
+  #portfolio .inerr img{
+    width: 80%;
+    margin: auto;
+  }
+  #numbers .box{
+    width: 50%;
+  }
+  .client-img{
+    width: 100%;
+  }
+  .client-desc{
+    width: 100%;
+    text-align: center;
+  }
+  .client-img img{
+    width: 20%;
+    margin: 20px auto;
+  }
+ #blog .card{
+    width: 100%;
+    margin: auto;
+ }
+  #blog .inerr img{
+    width: 80%;
+    margin: auto;
+  }
+  form .name{
+    width: 100%;
+  }
+  form .email{
+    width: 100%;
+    margin-top: 15px;
+    margin-left: 0
+  }
+  form .subject{
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 425px){
+.container{
+        width: 95%;
+    }
+    .home-content h2{
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .home-content h1{
+         font-size: 25px;
+        font-weight: 600;
+    }
+    .home-content p{
+        font-size: 16px;
+    }
+     #numbers .box{
+        width: 100%;
+     }
+     .about-desc p{
+         margin-left: -18px;
+     }
+     .portfolio-list{
+        margin: 0;
+     }
+     .about-desc .btn{
+        margin: 10px;
+     }
+     .about-desc p{
+        line-height: 20px;
+     }
+     .about-desc h3{
+        font-size: 25px;
+     }
+     #services h4,
+     #portfolio h4,
+     #Feedback h4,
+     #blog h4,
+     #contact h4{
+        font-size: 30px;
+        font-weight: 500;
+     }
+     .inerrr h3{
+        font-size: 18px;
+     }
+     .client-desc h2{
+        font-size: 18px;
+     }
+      .card .inerr h3{
+        font-size: 18px;
+      }
+      #footer h2{
+        font-size: 16px;
+      }
+}

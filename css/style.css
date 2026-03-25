@@ -206,6 +206,13 @@ right: 0;
 }
 .about-list .list-desc{
     float: left;
+  
+   
+}
+.about-list ul{
+ padding: 0;
+   margin-left: 30px;
+
 }
 .list-desc li{
     padding: 10px 0;
@@ -218,6 +225,7 @@ right: 0;
 .list-desc li span{
      font-weight: 400;
      color: #8E7E8E;
+     
 }
 .about-desc .btn{
     color: #fff;
@@ -412,7 +420,7 @@ color: #8E7E8E;
      text-align: center;
     }
     .Client{
-        width: 60%;
+        width: 80%;
         margin: 30px auto;
     background: linear-gradient(135deg, #FF305B, #f1f1f1);  
     border-radius: 10px;
@@ -552,7 +560,7 @@ padding: 80px 0;
      text-align: center;
 }
 #contact form{
-   width: 70%;
+   width: 80%;
    margin: auto;
    margin-top: 20px;
 
